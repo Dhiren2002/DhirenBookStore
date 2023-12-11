@@ -17,7 +17,7 @@ namespace BulkyWeb.DataAccess.Data
             modelBuilder.Entity<Category>().HasData(
                 new Category { CategoryId = 1, Name = "Action", DisplayOrder = 1 },
                 new Category { CategoryId = 2, Name = "SciFi", DisplayOrder = 2 },
-                new Category { CategoryId = 3, Name = "Hisotry", DisplayOrder = 3 }
+                new Category { CategoryId = 3, Name = "History", DisplayOrder = 3 }
                 );
 
             modelBuilder.Entity<Product>().HasData(
